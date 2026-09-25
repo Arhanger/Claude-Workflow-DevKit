@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Edit",
+      "Write",
+      "Bash(git *)"
+    ],
+    "deny": [
+      "Read(.env)",
+      "Bash(rm -rf /)"
+    ],
+    "additionalDirectories": ["<path-to-your-local-copy-of-the-shared-workflow-repo>"]
+  }
+}

@@ -1,0 +1,16 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+*.suo
+*.user
+.vs/
+
+# Editor swap/backup files
+*.swp
+*.swo
+*~
+
+# OS cruft
+.DS_Store
+Thumbs.db
